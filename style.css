@@ -1,52 +1,52 @@
-@media screen and (min-width:500px){
-    .ipt__css {
-        width: 15px;
-        height: 15px;
+  .ipt__css {
+        width: 20px;
+        height: 20px;
         text-align: center;
     }
     
     .cs {
         display: flex;
         flex-direction: column;
-        margin-left: 350px;
+        margin-left: 400px;
     }
     
     .flash {
         display: flex;
         flex-direction: row;
-        margin-left: 281px;
+        margin-left: 316px;
     }
 
     .adressBus {
         display: flex;
         flex-direction: column;
-        margin-left: 327px;
+        margin-left: 372px;
     }
     
     .registradores {
         display: flex;
         flex-direction: row;
-        margin-left: 189px;
-        margin-top: -147px;
+        margin-left: 204px;
+        margin-top: -182px;
     }
     
     .i5 {
         display: flex;
         flex-direction: column;
-        margin-top:-42px;
-        margin-left: 258.5px;
+        margin-top:-52px;
+        margin-left: 288px;
     }
     
     .dataBus {
         display: flex;
         flex-direction: row;
-        margin-top: 42px;
-        margin-left: 167px;
+        margin-top: 52px;
+        margin-left: 204px;
     }
     
     .dma {
         display: flex;
         flex-direction: column;
+        margin-left: 204px;
     }
     
     .ram {
@@ -98,7 +98,6 @@
         background-color: rgb(209, 225, 238);
         border-radius: 10vh;
         padding: 10vh;
-        margin: 5vh 20vw;
+        margin: 30px 200px;
         height: 600px;
     }
-}
