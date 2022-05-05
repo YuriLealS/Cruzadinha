@@ -1,93 +1,191 @@
-.ipt__css {
-    width: 1vw;
-    height: 1vw;
+@media screen and (min-width:1200px){
+    .ipt__css {
+        width: 1vw;
+        height: 1vw;
+    }
+    
+    .cs {
+        display: flex;
+        flex-direction: column;
+        margin-left: 25vw;
+    }
+    
+    .flash {
+        display: flex;
+        flex-direction: row;
+        margin-left: 20.25vw;
+    }
+    
+    .registradores {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .i5 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .adressBus {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .dataBus {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .dma {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .ram {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .dualCore {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .cpu {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .rom {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .memoria_de_massa {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .i7 {
+        display: flex;
+        flex-direction: column;  
+    }
+    
+    .quadCore {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .ula {
+        display: flex;
+        flex-direction: column; 
+    }
+    
+    .Eprom {
+        display: flex;
+        flex-direction: column; 
+    }
+    
+    .fundo__css {
+        background-color: rgb(209, 225, 238);
+        border-radius: 10vh;
+        padding: 10vh;
+        margin: 5vh 20vw;
+    }
 }
 
-.cs {
-    display: flex;
-    flex-direction: column;
-    margin-left: 25vw;
-}
-
-.flash {
-    display: flex;
-    flex-direction: row;
-    margin-left: 20.25vw;
-}
-
-.registradores {
-    display: flex;
-    flex-direction: row;
-}
-
-.i5 {
-    display: flex;
-    flex-direction: column;
-}
-
-.adressBus {
-    display: flex;
-    flex-direction: column;
-}
-
-.dataBus {
-    display: flex;
-    flex-direction: row;
-}
-
-.dma {
-    display: flex;
-    flex-direction: column;
-}
-
-.ram {
-    display: flex;
-    flex-direction: row;
-}
-
-.dualCore {
-    display: flex;
-    flex-direction: column;
-}
-
-.cpu {
-    display: flex;
-    flex-direction: row;
-}
-
-.rom {
-    display: flex;
-    flex-direction: column;
-}
-
-.memoria_de_massa {
-    display: flex;
-    flex-direction: row;
-}
-
-.i7 {
-    display: flex;
-    flex-direction: column;  
-}
-
-.quadCore {
-    display: flex;
-    flex-direction: row;
-}
-
-.ula {
-    display: flex;
-    flex-direction: column; 
-}
-
-.Eprom {
-    display: flex;
-    flex-direction: column; 
-}
-
-.fundo__css {
-    background-color: rgb(209, 225, 238);
-    border-radius: 10vh;
-    padding: 10vh;
-    margin: 5vh 20vw;
+@media screen and (min-width:500px){
+    .ipt__css {
+        width: 1vw;
+        height: 1vw;
+    }
+    
+    .cs {
+        display: flex;
+        flex-direction: column;
+        margin-left: 25vw;
+    }
+    
+    .flash {
+        display: flex;
+        flex-direction: row;
+        margin-left: 20.25vw;
+    }
+    
+    .registradores {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .i5 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .adressBus {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .dataBus {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .dma {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .ram {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .dualCore {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .cpu {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .rom {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .memoria_de_massa {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .i7 {
+        display: flex;
+        flex-direction: column;  
+    }
+    
+    .quadCore {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .ula {
+        display: flex;
+        flex-direction: column; 
+    }
+    
+    .Eprom {
+        display: flex;
+        flex-direction: column; 
+    }
+    
+    .fundo__css {
+        background-color: rgb(209, 225, 238);
+        border-radius: 10vh;
+        padding: 10vh;
+        margin: 5vh 20vw;
+    }
 }
