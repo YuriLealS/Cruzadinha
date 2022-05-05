@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palavras Cruzadas</title>
+</head>
+<body>
+    <div id="cpu">
+        <input type="text" id="cpu1" style="width: 15px; height: 15px; text-align: center;">
+        <input type="text" id="cpu2" style="width: 15px; height: 15px; text-align: center;">
+        <input type="text" id="cpu3" style="width: 15px; height: 15px; text-align: center;">
+    </div>
+<br><br>
+    <div id="resposta">
+        <input type="text" id="tentativa" placeholder="Tentativa">
+    </div>
+    <br>
+    <button onclick="ver()">Ver</button>
+</body>
+</html>
+<script>
+    function ver() {
+        var tent = tentativa.value
+        if (tent === "cpu" || tent === "CPU") {
+            cpu1.value = "C"
+            cpu2.value = "P"
+            cpu3.value = "U"
+        }else {
+            alert('resposta errada')
+            tentativa.value = ''
+        }
+    }
+    
+</script>
