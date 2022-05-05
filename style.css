@@ -40,6 +40,8 @@
     .dataBus {
         display: flex;
         flex-direction: row;
+        margin-top: 42px;
+        margin-left: 167px;
     }
     
     .dma {
