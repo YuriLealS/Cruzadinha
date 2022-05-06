@@ -112,5 +112,15 @@
         border-radius: 60px;
         padding: 60px;
         margin: 30px 200px;
-        height: 600px;
+    }
+    .frase__css{
+        margin: 110px;
+        text-align: center;
+    }
+    #botoes{
+        margin: 40px 130px;
+    }
+    .botoes__css{
+        width: 30px;
+        text-align: center;
     }
