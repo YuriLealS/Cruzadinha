@@ -48,56 +48,69 @@
         flex-direction: column;
         margin-left: 204px;
     }
+
+    .Eprom {
+        display: flex;
+        flex-direction: column;
+        margin-left: 512px;
+        margin-top: -105px;
+    }
     
     .ram {
         display: flex;
         flex-direction: row;
+        margin-left: 456px;
+        margin-top: -26px;
     }
-    
-    .dualCore {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .cpu {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .rom {
-        display: flex;
-        flex-direction: column;
-    }
-    
     .memoria_de_massa {
         display: flex;
         flex-direction: row;
+        margin-left: 64px;
+        margin-top: 27px;
     }
-    
+
     .i7 {
         display: flex;
-        flex-direction: column;  
+        flex-direction: column;
+        margin-left:204px;  
     }
-    
+
+    .rom {
+        display: flex;
+        flex-direction: column;
+        margin-top: -104px;
+        margin-left: 148px;
+    }
+
+    .ula {
+        display: flex;
+        flex-direction: column;
+        margin-top: 26px;
+        margin-left: 428px;
+    }
+
     .quadCore {
         display: flex;
         flex-direction: row;
+        margin-left: 400px;
     }
-    
-    .ula {
+
+    .dualCore {
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
+        margin-left: 568px;
+        margin-top: -181px;
     }
-    
-    .Eprom {
+    .cpu {
         display: flex;
-        flex-direction: column; 
+        flex-direction: row;
+        margin-left: 596px;
+        margin-top: -104px;
     }
-    
     .fundo__css {
         background-color: rgb(209, 225, 238);
-        border-radius: 10vh;
-        padding: 10vh;
+        border-radius: 60px;
+        padding: 60px;
         margin: 30px 200px;
         height: 600px;
     }
