@@ -123,6 +123,10 @@
         margin: 110px;
         text-align: center;
     }
+    .frase__css{
+        font-size: 17px;
+        font-family: monospace;
+    }
     #botoes{
         margin: 40px 130px;
     }
