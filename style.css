@@ -9,6 +9,12 @@
         flex-direction: column;
         margin-left: 400px;
     }
+
+    .num1 {
+        margin-left: 8px;
+        margin-top: -10px;
+        margin-bottom: -1px;
+    }
     
     .flash {
         display: flex;
