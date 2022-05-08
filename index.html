@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,43 +8,44 @@
     <title>PalavrasCruzadas</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="fundo__css" >
-    <!-- 1 -->
+    <div class="fundo__css">
+        <!-- 1 -->
         <section class="cs">
-            <input class="ipt__css num"  disabled = '' value="1" type="text">
-            <input class="ipt__css" type="text" id="cs-c">
+            <input class="ipt__css num" disabled='' value="1" type="text">
+            <input class="ipt__css" type="text" id="cs_c">
         </section>
-    <!-- 2 -->
+        <!-- 2 -->
         <section class="flash">
-            <input class="ipt__css num"  disabled = '' value="2" type="text">
-            <input class="ipt__css" type="text">
-            <input class="ipt__css" type="text">
-            <input class="ipt__css" type="text">
-            <input class="ipt__css" type="text"> 
-            <input class="ipt__css" type="text">
+            <input class="ipt__css num" disabled='' value="2" type="text">
+            <input class="ipt__css" type="text" id="flash_f">
+            <input class="ipt__css" type="text" id="flash_l">
+            <!-- input por baixo -->
+            <input class="ipt__css" type="text" id="flash_a-adressBus_a">
+            <input class="ipt__css" type="text" id="flash_s_cs_u">
+            <input class="ipt__css" type="text" id="flash_h">
         </section>
-    <!-- 3 -->
-    <section class="adressBus">
-            <input class="ipt__css num"  disabled = '' value="3" type="text">
-            <input class="ipt__css" type="text">
-            <input class="ipt__css" type="text">
-            <input class="ipt__css" type="text">
-            <input class="ipt__css" type="text">
-            <input class="ipt__css" type="text">
-            <input class="ipt__css" type="text">
-            <input class="ipt__css" type="text">
-            <input class="ipt__css" type="text">
-            <input class="ipt__css" type="text">
+        <!-- 3 -->
+        <section class="adressBus">
+            <input class="ipt__css num" disabled='' value="3" type="text">
+            <input class="ipt__css" type="text" id="flash_a-adressBus_a">
+            <input class="ipt__css" type="text" id="adressBus_d">
+            <!-- input por baixo -->
+            <input class="ipt__css" type="text" id="adressBus_r-registradores_r">
+            <input class="ipt__css" type="text" id="adressBus_e">
+            <!-- input por baixo -->
+            <input class="ipt__css" type="text" id="adressBus_s-databus-s">
+            <input class="ipt__css" type="text" id="adressBus_s">
+            <input class="ipt__css" type="text" id="adressBus_b">
+            <input class="ipt__css" type="text" id="adressBus_u">
+            <!-- input por baixo -->
+            <input class="ipt__css" type="text" id="adressBus_s-memoriademassa_s">
         </section>
-       
-    <!-- 4 -->
+
+        <!-- 4 -->
         <section class="registradores">
-            <input class="ipt__css num"  disabled = '' value="4" type="text">
-            <input class="ipt__css" type="text">
-            <input class="ipt__css" type="text">
-            <input class="ipt__css" type="text">
-            <input class="ipt__css" type="text"> 
+            <input class="ipt__css num" disabled='' value="4" type="text">
             <input class="ipt__css" type="text">
             <input class="ipt__css" type="text">
             <input class="ipt__css" type="text">
@@ -51,124 +53,256 @@
             <input class="ipt__css" type="text">
             <input class="ipt__css" type="text">
             <input class="ipt__css" type="text">
+            <input class="ipt__css" type="text" id="adressBus_r-registradores_r">
             <input class="ipt__css" type="text">
             <input class="ipt__css" type="text">
-        </section>
-    <!-- 5 -->
-         <section class="i5">
+            <input class="ipt__css" type="text">
+            <input class="ipt__css" type="text" id="eprom_e-registradores_r">
             <input class="ipt__css" type="text">
         </section>
-    <!-- 6 -->
+        <!-- 5 -->
+        <section class="i5">
+            <input class="ipt__css" type="text">
+        </section>
+        <!-- 6 -->
         <section class="dataBus">
-            <input class="ipt__css num"  disabled = '' value="6" type="text">
+            <input class="ipt__css num" disabled='' value="6" type="text">
+            <input class="ipt__css" type="text" id="dma_a -databus-d">
             <input class="ipt__css" type="text">
             <input class="ipt__css" type="text">
             <input class="ipt__css" type="text">
             <input class="ipt__css" type="text">
             <input class="ipt__css" type="text">
-            <input class="ipt__css" type="text">
-            <input class="ipt__css" type="text"> 
+            <input class="ipt__css" type="text" id="adressBus_s-databus-s">
         </section>
-    <!-- 7 -->
+        <!-- 7 -->
         <section class="dma">
-            <input class="ipt__css" type="text"> 
+            <input class="ipt__css" type="text">
             <input class="ipt__css" type="text">
         </section>
-    <!-- 8 -->
-    <section class="Eprom">
-        <input class="ipt__css" type="text">
-        <input class="ipt__css" type="text">
-        <input class="ipt__css" type="text">
-        <input class="ipt__css" type="text">
-    </section>
-       
-    <!-- 9 -->
-    <section class="ram">
-        <input class="ipt__css num"  disabled = '' value="9" type="text">
-        <input class="ipt__css" type="text">
-        <input class="ipt__css" type="text">
-    </section>
-    <!-- 10 -->
-    <section class="memoria_de_massa">
-        <input class="ipt__css num"  disabled = '' value="10" type="text">
-        <input class="ipt__css" type="text">
-        <input class="ipt__css" type="text">
-        <input class="ipt__css" type="text">
-        <input class="ipt__css" type="text">
-        <input class="ipt__css" type="text">
-        <input class="ipt__css" type="text">
-        <input class="ipt__css" type="text">
-        <input class="ipt__css" type="text">
-        <input class="ipt__css" type="text">
-        <input class="ipt__css" type="text">
-        <input class="ipt__css" type="text">
-        <input class="ipt__css" type="text">
-        <input class="ipt__css" type="text">
-        <input class="ipt__css" type="text">
-    </section>
-    <!-- 11 -->
-    <section class="i7">
-        <input class="ipt__css" type="text">
-    </section>
-        
-    <!-- 12 -->
-    <section class="rom">
-        <input class="ipt__css" type="text">
-        <input class="ipt__css" type="text">
-    </section>
-    <!-- 13 -->
-    <section class="ula">
-        <input class="ipt__css" type="text"> 
-    </section>
-    <!-- 14 -->
-    <section class="quadCore"> 
-        <input class="ipt__css num"  disabled = '' value="14" type="text">
-        <input class="ipt__css" type="text">
-        <input class="ipt__css" type="text">
-        <input class="ipt__css" type="text">
-        <input class="ipt__css" type="text">
-        <input class="ipt__css" type="text">
-        <input class="ipt__css" type="text">
-        <input class="ipt__css" type="text"> 
-        <input class="ipt__css" type="text">
-    </section>
-    <!-- 15 -->
-    <section class="dualCore">
-        <input class="ipt__css" type="text">
-        <input class="ipt__css" type="text">
-        <input class="ipt__css" type="text">
-        <input class="ipt__css" type="text">
-        <input class="ipt__css" type="text">
-        <input class="ipt__css" type="text">
-        <input class="ipt__css" type="text">
-        <input class="ipt__css" type="text">
-    </section>
-    <!-- 16 -->
-    <section class="cpu">
-        <input class="ipt__css" type="text">
-        <input class="ipt__css" type="text">
-    </section>
+        <!-- 8 -->
+        <section class="Eprom">
+            <input class="ipt__css" type="text">
+            <input class="ipt__css" type="text">
+            <input class="ipt__css" type="text">
+            <input class="ipt__css" type="text" id="eprom_m-ram_m">
+        </section>
+
+        <!-- 9 -->
+        <section class="ram">
+            <input class="ipt__css num" disabled='' value="9" type="text">
+            <input class="ipt__css" type="text">
+            <input class="ipt__css" type="text">
+        </section>
+        <!-- 10 -->
+        <section class="memoria_de_massa">
+            <input class="ipt__css num" disabled='' value="10" type="text">
+            <input class="ipt__css" type="text">
+            <input class="ipt__css" type="text">
+            <input class="ipt__css" type="text" id="memoriademassa_m-rom_m">
+            <input class="ipt__css" type="text">
+            <input class="ipt__css" type="text">
+            <input class="ipt__css" type="text" id="memoriademassa_i-i7_i">
+            <input class="ipt__css" type="text">
+            <input class="ipt__css" type="text">
+            <input class="ipt__css" type="text">
+            <input class="ipt__css" type="text">
+            <input class="ipt__css" type="text">
+            <input class="ipt__css" type="text" id="adressBus_s-memoriademassa_s">
+            <input class="ipt__css" type="text">
+            <input class="ipt__css" type="text" id="memoriademassa_a-ula-a">
+        </section>
+        <!-- 11 -->
+        <section class="i7">
+            <input class="ipt__css" type="text">
+        </section>
+
+        <!-- 12 -->
+        <section class="rom">
+            <input class="ipt__css" type="text">
+            <input class="ipt__css" type="text">
+        </section>
+        <!-- 13 -->
+        <section class="ula">
+            <input class="ipt__css" type="text">
+        </section>
+        <!-- 14 -->
+        <section class="quadCore">
+            <input class="ipt__css num" disabled='' value="14" type="text">
+            <input class="ipt__css" type="text">
+            <input class="ipt__css" type="text" id="quadcore_u-ula_u">
+            <input class="ipt__css" type="text">
+            <input class="ipt__css" type="text">
+            <input class="ipt__css" type="text">
+            <input class="ipt__css" type="text">
+            <!-- input por baix0 -->
+            <input class="ipt__css" type="text" id="quadcore_r-dualcore-r">
+            <input class="ipt__css" type="text">
+        </section>
+        <!-- 15 -->
+        <section class="dualCore">
+            <input class="ipt__css" type="text">
+            <input class="ipt__css" type="text">
+            <input class="ipt__css" type="text">
+            <input class="ipt__css" type="text">
+            <input class="ipt__css" type="text" id="quadcore_r-cpu_c">
+            <input class="ipt__css" type="text">
+            <input class="ipt__css" type="text" id="quadcore_r-dualcore-r">
+            <input class="ipt__css" type="text">
+        </section>
+        <!-- 16 -->
+        <section class="cpu">
+            <input class="ipt__css" type="text">
+            <input class="ipt__css" type="text">
+        </section>
         <div id="frase">
-            <span class="frase__css">AAAA</span>
+            <span class="frase__css" id="frase_dica">Selecione um numero para aparecer a dica :)</span>
         </div>
         <div id="botoes">
-            <button onclick="frase1()"class="botoes__css">1</button>
-            <button onclick="frase2()"class="botoes__css">2</button>
-            <button onclick="frase3()"class="botoes__css">3</button>
-            <button onclick="frase4()"class="botoes__css">4</button>
-            <button onclick="frase5()"class="botoes__css">5</button>
-            <button onclick="frase6()"class="botoes__css">6</button>
-            <button onclick="frase7()"class="botoes__css">7</button>
-            <button onclick="frase8()"class="botoes__css">8</button>
-            <button onclick="frase9()"class="botoes__css">9</button>
-            <button onclick="frase10()"class="botoes__css">10</button>
-            <button onclick="frase11()"class="botoes__css">11</button>
-            <button onclick="frase12()"class="botoes__css">12</button>
-            <button onclick="frase13()"class="botoes__css">13</button>
-            <button onclick="frase14()"class="botoes__css">14</button>
-            <button onclick="frase15()"class="botoes__css">15</button>
-            <button onclick="frase16()"class="botoes__css">16</button>
+            <button onclick="frase1()" class="botoes__css">1</button>
+            <button onclick="frase2()" class="botoes__css">2</button>
+            <button onclick="frase3()" class="botoes__css">3</button>
+            <button onclick="frase4()" class="botoes__css">4</button>
+            <button onclick="frase5()" class="botoes__css">5</button>
+            <button onclick="frase6()" class="botoes__css">6</button>
+            <button onclick="frase7()" class="botoes__css">7</button>
+            <button onclick="frase8()" class="botoes__css">8</button>
+            <button onclick="frase9()" class="botoes__css">9</button>
+            <button onclick="frase10()" class="botoes__css">10</button>
+            <button onclick="frase11()" class="botoes__css">11</button>
+            <button onclick="frase12()" class="botoes__css">12</button>
+            <button onclick="frase13()" class="botoes__css">13</button>
+            <button onclick="frase14()" class="botoes__css">14</button>
+            <button onclick="frase15()" class="botoes__css">15</button>
+            <button onclick="frase16()" class="botoes__css">16</button>
+        </div>
+        <div>
+            <div id="divtentavia1" style="display: none;">
+                <input type="text" id="tentativa1" placeholder="Tentativa"> 
+                <button onclick="frase1()">Verificar1</button>
+            </div>
+            <div id="divtentavia2" style="display: none;">
+                <input type="text" id="tentativa2" placeholder="Tentativa"> 
+                <button onclick="frase2()">Verificar</button>
+            </div>
+            <div id="divtentavia3" style="display: none;">
+                <input type="text" id="tentativa3" placeholder="Tentativa"> 
+                <button onclick="frase3()">Verificar</button>
+            </div>
+            <div id="divtentavia4" style="display: none;">
+                <input type="text" id="tentativa4" placeholder="Tentativa"> 
+                <button onclick="frase4()">Verificar</button>
+            </div>
+            <div id="divtentavia5" style="display: none;">
+                <input type="text" id="tentativa5" placeholder="Tentativa"> 
+            <button onclick="frase5()">Verificar</button>
+            </div>
+            <div id="divtentavia6" style="display: none;">
+                <input type="text" id="tentativa6" placeholder="Tentativa"> 
+            <button onclick="frase6()">Verificar</button>
+            </div>
+            <div id="divtentavia7" style="display: none;">
+                <input type="text" id="tentativa7" placeholder="Tentativa"> 
+                <button onclick="frase7()">Verificar</button>
+            </div>
+            <div id="divtentavia8" style="display: none;">
+                <input type="text" id="tentativa8" placeholder="Tentativa"> 
+                <button onclick="frase8()">Verificar</button>
+            </div>
+            <div id="divtentavia9" style="display: none;">
+                <input type="text" id="tentativa9" placeholder="Tentativa"> 
+                <button onclick="frase9()">Verificar</button>
+            </div>
+            <div id="divtentavia10" style="display: none;">
+                <input type="text" id="tentativa10" placeholder="Tentativa"> 
+                <button onclick="frase10()">Verificar</button>
+            </div>
+            <div id="divtentavia11" style="display: none;">
+                <input type="text" id="tentativa11" placeholder="Tentativa"> 
+                <button onclick="frase11()">Verificar</button>
+            </div>
+            <div id="divtentavia12" style="display: none;">
+                <input type="text" id="tentativa12" placeholder="Tentativa"> 
+            <button onclick="frase12()">Verificar</button>
+            </div>
+            <div id="divtentavia13" style="display: none;">
+                <input type="text" id="tentativa13" placeholder="Tentativa"> 
+                <button onclick="frase13()">Verificar</button>
+            </div>
+            <div id="divtentavia14" style="display: none;">
+                <input type="text" id="tentativa14" placeholder="Tentativa"> 
+                <button onclick="frase14()">Verificar</button>
+            </div>
+            <div id="divtentavia15" style="display: none;">
+                <input type="text" id="tentativa15" placeholder="Tentativa"> 
+                <button onclick="frase15()">Verificar</button>
+            </div>
+            <div id="divtentavia16" style="display: none;">
+                <input type="text" id="tentativa16" placeholder="Tentativa">
+                <button onclick="frase16()">Verificar</button>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
+<script>
+    function frase1() {
+        frase_dica.innerHTML = `frase 1`
+        var tent = tentativa1.value
+        divtentavia1.style = "display: block;"
+        
+        if (tent == "cs" || tent == "CS") {
+            cs_c.value = "C";
+            flash_s_cs_u.value = "S"
+            divtentavia1.style = "display: none;"
+            } else if(tent != ""){
+                alert('resposta errada')
+                tentativa.value = ''
+            }
+        
+    } function frase2() {
+        frase_dica.innerHTML = `frase 2`
+    } function frase3() {
+        frase_dica.innerHTML = `frase 3`
+    } function frase4() {
+        frase_dica.innerHTML = `frase 4`
+    } function frase5() {
+        frase_dica.innerHTML = `frase 5`
+    } function frase6() {
+        frase_dica.innerHTML = `frase 6`
+    } function frase7() {
+        frase_dica.innerHTML = `frase 7`
+    } function frase8() {
+        frase_dica.innerHTML = `frase 8`
+    } function frase9() {
+        frase_dica.innerHTML = `frase 9`
+    } function frase10() {
+        frase_dica.innerHTML = `frase 10`
+    } function frase11() {
+        frase_dica.innerHTML = `frase 11`
+    } function frase12() {
+        frase_dica.innerHTML = `frase 12`
+    } function frase13() {
+        frase_dica.innerHTML = `frase 13`
+    } function frase14() {
+        frase_dica.innerHTML = `frase 14`
+    } function frase15() {
+        frase_dica.innerHTML = `frase 15`
+    } function frase16() {
+        frase_dica.innerHTML = `frase 16`
+    }
+
+    function verificar() {
+        var tent = tentativa.value
+        if (tent === "cs" || tent === "CS") {
+            cs_c.value = "C";
+            flash_s_cs_u.value = "S"
+        } else {
+            tentativa.value = ''
+        }
+            alert('resposta errada')
+    }
+
+
+</script>
