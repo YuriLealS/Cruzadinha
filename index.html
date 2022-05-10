@@ -11,6 +11,7 @@
 
 <body>
     <div class="fundo__css">
+        <h1>Palavras Cruzadas</h1>
         <!-- 1 -->
         <section class="cs">
             <input class="num" disabled='' value="1" type="text">
@@ -156,7 +157,73 @@
             <input class="ipt__css" type="text" disabled=''>
         </section>
         <div id="frase">
-            <span class="frase__css" id="frase_dica">Selecione um numero para aparecer a dica :)</span>
+            <span class="frase__css" id="frase_dica">Selecione um número para aparecer a dica</span>
+        </div>
+        <div>
+            <div id="divtentavia1" style="display: none;">
+                <input class="ipt_tentativa" type="text" id="tentativa1" placeholder="Tentativa"> <br>
+                <button class="verificar" onclick="frase1()">Verificar</button>
+            </div>
+            <div id="divtentavia2" style="display: none;">
+                <input class="ipt_tentativa" type="text" id="tentativa2" placeholder="Tentativa"> 
+                <button class="verificar" onclick="frase2()">Verificar</button>
+            </div>
+            <div id="divtentavia3" style="display: none;">
+                <input class="ipt_tentativa" type="text" id="tentativa3" placeholder="Tentativa"> 
+                <button class="verificar" onclick="frase3()">Verificar</button>
+            </div>
+            <div id="divtentavia4" style="display: none;">
+                <input class="ipt_tentativa" type="text" id="tentativa4" placeholder="Tentativa"> 
+                <button class="verificar" onclick="frase4()">Verificar</button>
+            </div>
+            <div id="divtentavia5" style="display: none;">
+                <input class="ipt_tentativa" type="text" id="tentativa5" placeholder="Tentativa"> 
+            <button class="verificar" onclick="frase5()">Verificar</button>
+            </div>
+            <div id="divtentavia6" style="display: none;">
+                <input class="ipt_tentativa" type="text" id="tentativa6" placeholder="Tentativa"> 
+            <button class="verificar" onclick="frase6()">Verificar</button>
+            </div>
+            <div id="divtentavia7" style="display: none;">
+                <input class="ipt_tentativa" type="text" id="tentativa7" placeholder="Tentativa"> 
+                <button class="verificar" onclick="frase7()">Verificar</button>
+            </div>
+            <div id="divtentavia8" style="display: none;">
+                <input class="ipt_tentativa" type="text" id="tentativa8" placeholder="Tentativa"> 
+                <button class="verificar" onclick="frase8()">Verificar</button>
+            </div>
+            <div id="divtentavia9" style="display: none;">
+                <input class="ipt_tentativa" type="text" id="tentativa9" placeholder="Tentativa"> 
+                <button class="verificar" onclick="frase9()">Verificar</button>
+            </div>
+            <div id="divtentavia10" style="display: none;">
+                <input type="text" id="tentativa10" placeholder="Tentativa"> 
+                <button class="verificar" onclick="frase10()">Verificar</button>
+            </div>
+            <div id="divtentavia11" style="display: none;">
+                <input class="ipt_tentativa" type="text" id="tentativa11" placeholder="Tentativa"> 
+                <button class="verificar" onclick="frase11()">Verificar</button>
+            </div>
+            <div id="divtentavia12" style="display: none;">
+                <input class="ipt_tentativa" type="text" id="tentativa12" placeholder="Tentativa"> 
+            <button class="verificar" onclick="frase12()">Verificar</button>
+            </div>
+            <div id="divtentavia13" style="display: none;">
+                <input class="ipt_tentativa" type="text" id="tentativa13" placeholder="Tentativa"> 
+                <button class="verificar" onclick="frase13()">Verificar</button>
+            </div>
+            <div id="divtentavia14" style="display: none;">
+                <input class="ipt_tentativa" type="text" id="tentativa14" placeholder="Tentativa"> 
+                <button class="verificar" onclick="frase14()">Verificar</button>
+            </div>
+            <div id="divtentavia15" style="display: none;">
+                <input class="ipt_tentativa" type="text" id="tentativa15" placeholder="Tentativa"> 
+                <button class="verificar" onclick="frase15()">Verificar</button>
+            </div>
+            <div id="divtentavia16" style="display: none;">
+                <input class="ipt_tentativa" type="text" id="tentativa16" placeholder="Tentativa">
+                <button class="verificar" onclick="frase16()">Verificar</button>
+            </div>
         </div>
         <div id="botoes">
             <button onclick="frase1()" class="botoes__css">1</button>
@@ -176,72 +243,7 @@
             <button onclick="frase15()" class="botoes__css">15</button>
             <button onclick="frase16()" class="botoes__css">16</button>
         </div>
-        <div>
-            <div id="divtentavia1" style="display: none;">
-                <input type="text" id="tentativa1" placeholder="Tentativa"> 
-                <button onclick="frase1()">Verificar1</button>
-            </div>
-            <div id="divtentavia2" style="display: none;">
-                <input type="text" id="tentativa2" placeholder="Tentativa"> 
-                <button onclick="frase2()">Verificar</button>
-            </div>
-            <div id="divtentavia3" style="display: none;">
-                <input type="text" id="tentativa3" placeholder="Tentativa"> 
-                <button onclick="frase3()">Verificar</button>
-            </div>
-            <div id="divtentavia4" style="display: none;">
-                <input type="text" id="tentativa4" placeholder="Tentativa"> 
-                <button onclick="frase4()">Verificar</button>
-            </div>
-            <div id="divtentavia5" style="display: none;">
-                <input type="text" id="tentativa5" placeholder="Tentativa"> 
-            <button onclick="frase5()">Verificar</button>
-            </div>
-            <div id="divtentavia6" style="display: none;">
-                <input type="text" id="tentativa6" placeholder="Tentativa"> 
-            <button onclick="frase6()">Verificar</button>
-            </div>
-            <div id="divtentavia7" style="display: none;">
-                <input type="text" id="tentativa7" placeholder="Tentativa"> 
-                <button onclick="frase7()">Verificar</button>
-            </div>
-            <div id="divtentavia8" style="display: none;">
-                <input type="text" id="tentativa8" placeholder="Tentativa"> 
-                <button onclick="frase8()">Verificar</button>
-            </div>
-            <div id="divtentavia9" style="display: none;">
-                <input type="text" id="tentativa9" placeholder="Tentativa"> 
-                <button onclick="frase9()">Verificar</button>
-            </div>
-            <div id="divtentavia10" style="display: none;">
-                <input type="text" id="tentativa10" placeholder="Tentativa"> 
-                <button onclick="frase10()">Verificar</button>
-            </div>
-            <div id="divtentavia11" style="display: none;">
-                <input type="text" id="tentativa11" placeholder="Tentativa"> 
-                <button onclick="frase11()">Verificar</button>
-            </div>
-            <div id="divtentavia12" style="display: none;">
-                <input type="text" id="tentativa12" placeholder="Tentativa"> 
-            <button onclick="frase12()">Verificar</button>
-            </div>
-            <div id="divtentavia13" style="display: none;">
-                <input type="text" id="tentativa13" placeholder="Tentativa"> 
-                <button onclick="frase13()">Verificar</button>
-            </div>
-            <div id="divtentavia14" style="display: none;">
-                <input type="text" id="tentativa14" placeholder="Tentativa"> 
-                <button onclick="frase14()">Verificar</button>
-            </div>
-            <div id="divtentavia15" style="display: none;">
-                <input type="text" id="tentativa15" placeholder="Tentativa"> 
-                <button onclick="frase15()">Verificar</button>
-            </div>
-            <div id="divtentavia16" style="display: none;">
-                <input type="text" id="tentativa16" placeholder="Tentativa">
-                <button onclick="frase16()">Verificar</button>
-            </div>
-        </div>
+        
     </div>
 </body>
 

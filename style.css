@@ -128,8 +128,8 @@
     .fundo__css {
         background-color: rgb(209, 225, 238);
         border-radius: 60px;
-        padding: 60px;
-        margin: 30px 200px;
+        padding:20px 60px;
+        margin: 10px 200px;
     }
 
     #frase{
@@ -153,4 +153,28 @@
         border: 0.5px groove black;
         font-weight: bold;
         text-shadow: 10px 10px 10px 10px rgb(0, 140, 255) ;
+    }
+    .ipt_tentativa{
+        margin-left: 320px;
+        text-align: center;
+        border: 1px solid rgb(134, 194, 243);
+        border-radius: 10px;
+        height: 30px;
+    }
+    
+    button{
+        cursor: pointer;
+    }
+    
+    .verificar{
+        margin-top: 20px;
+        margin-left: 375px;
+        border-radius: 5px;
+
+    }
+
+    h1{
+        font-family: monospace;
+        text-align: center;
+        margin: 0;
     }
