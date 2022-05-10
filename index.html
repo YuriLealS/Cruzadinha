@@ -78,50 +78,50 @@
         </section>
         <!-- 7 -->
         <section class="dma">
-            <input class="ipt__css" type="text" disabled=''>
-            <input class="ipt__css" type="text" disabled=''>
+            <input class="ipt__css" type="text" id="dma_m" disabled=''>
+            <input class="ipt__css" type="text" id="dma_a" disabled=''>
         </section>
         <!-- 8 -->
         <section class="Eprom">
-            <input class="ipt__css" type="text" disabled=''>
-            <input class="ipt__css" type="text" disabled=''>
-            <input class="ipt__css" type="text" disabled=''>
+            <input class="ipt__css" type="text" id="eprom_p" disabled=''>
+            <input class="ipt__css" type="text" id="eprom_r" disabled=''>
+            <input class="ipt__css" type="text" id="eprom_o" disabled=''>
             <input class="ipt__css" type="text" id="eprom_m_ram_m" disabled=''>
         </section>
 
         <!-- 9 -->
         <section class="ram">
             <input class="num" disabled='' value="9" type="text">
-            <input class="ipt__css" type="text" disabled=''>
-            <input class="ipt__css" type="text" disabled=''>
+            <input class="ipt__css" type="text" id="ram_r" disabled=''>
+            <input class="ipt__css" type="text" id="ram_a" disabled=''>
         </section>
         <!-- 10 -->
         <section class="memoria_de_massa">
             <input class="num" disabled='' value="10" type="text">
-            <input class="ipt__css" type="text" disabled=''>
-            <input class="ipt__css" type="text" disabled=''>
+            <input class="ipt__css" type="text" id="memoriademassa_m1" disabled=''>
+            <input class="ipt__css" type="text" id="memoriademassa_e1" disabled=''>
             <input class="ipt__css" type="text" id="memoriademassa_m_rom_m" disabled=''>
-            <input class="ipt__css" type="text" disabled=''>
-            <input class="ipt__css" type="text" disabled=''>
+            <input class="ipt__css" type="text" id="memoriademassa_o" disabled=''>
+            <input class="ipt__css" type="text" id="memoriademassa_r" disabled=''>
             <input class="ipt__css" type="text" id="memoriademassa_i_i7_i" disabled=''>
-            <input class="ipt__css" type="text" disabled=''>
-            <input class="ipt__css" type="text" disabled=''>
-            <input class="ipt__css" type="text" disabled=''>
-            <input class="ipt__css" type="text" disabled=''>
-            <input class="ipt__css" type="text" disabled=''>
+            <input class="ipt__css" type="text" id="memoriademassa_a1" disabled=''>
+            <input class="ipt__css" type="text" id="memoriademassa_d" disabled=''>
+            <input class="ipt__css" type="text" id="memoriademassa_e" disabled=''>
+            <input class="ipt__css" type="text" id="memoriademassa_m" disabled=''>
+            <input class="ipt__css" type="text" id="memoriademassa_a" disabled=''>
             <input class="ipt__css" type="text" id="adressBus_s_memoriademassa_s" disabled=''>
-            <input class="ipt__css" type="text" disabled=''>
-            <input class="ipt__css" type="text" id="memoriademassa_a_ula-a" disabled=''>
+            <input class="ipt__css" type="text" id="memoriademassa_s" disabled=''>
+            <input class="ipt__css" type="text" id="memoriademassa_a_ula_a" disabled=''>
         </section>
         <!-- 11 -->
         <section class="i7">
-            <input class="ipt__css" type="text" disabled=''>
+            <input class="ipt__css" type="text" id="i7_7" disabled=''>
         </section>
 
         <!-- 12 -->
         <section class="rom">
-            <input class="ipt__css" type="text" disabled=''>
-            <input class="ipt__css" type="text" disabled=''>
+            <input class="ipt__css" type="text" id="rom_r" disabled=''>
+            <input class="ipt__css" type="text" id="rom_o" disabled=''>
         </section>
         <!-- 13 -->
         <section class="ula">
@@ -462,26 +462,206 @@
 
     function frase7() {
         frase_dica.innerHTML = `frase 7`
+        var tent = tentativa7.value
+        divtentavia7.style = "display: block;"
+
+        if (tent == "dma" || tent == "DMA") {
+            dma_a_databus_d.value = "D";
+            dma_m.value = "M";
+            dma_a.value = "A";
+            divtentavia7.style = "display: none;"
+        } else if (tent != "") {
+            alert('resposta errada')
+            tentativa.value = ''
+        }
+
+        divtentavia1.style = "display: none;"
+        divtentavia2.style = "display: none;"
+        divtentavia3.style = "display: none;"
+        divtentavia4.style = "display: none;"
+        divtentavia5.style = "display: none;"
+        divtentavia6.style = "display: none;"
+        divtentavia8.style = "display: none;"
+        divtentavia9.style = "display: none;"
+        divtentavia10.style = "display: none;"
+        divtentavia11.style = "display: none;"
+        divtentavia12.style = "display: none;"
+        divtentavia13.style = "display: none;"
+        divtentavia14.style = "display: none;"
+        divtentavia15.style = "display: none;"
+        divtentavia16.style = "display: none;"
     }
 
     function frase8() {
         frase_dica.innerHTML = `frase 8`
+        var tent = tentativa8.value
+        divtentavia8.style = "display: block;"
+
+        if (tent == "eprom" || tent == "EPROM") {
+            eprom_e_registradores_e.value = "E";
+            eprom_p.value = "P";
+            eprom_r.value = "R";
+            eprom_o.value = "O";
+            eprom_m_ram_m.value = "M";
+            divtentavia8.style = "display: none;"
+        } else if (tent != "") {
+            alert('resposta errada')
+            tentativa.value = ''
+        }
+
+        divtentavia1.style = "display: none;"
+        divtentavia2.style = "display: none;"
+        divtentavia3.style = "display: none;"
+        divtentavia4.style = "display: none;"
+        divtentavia5.style = "display: none;"
+        divtentavia6.style = "display: none;"
+        divtentavia7.style = "display: none;"
+        divtentavia9.style = "display: none;"
+        divtentavia10.style = "display: none;"
+        divtentavia11.style = "display: none;"
+        divtentavia12.style = "display: none;"
+        divtentavia13.style = "display: none;"
+        divtentavia14.style = "display: none;"
+        divtentavia15.style = "display: none;"
+        divtentavia16.style = "display: none;"
     }
 
     function frase9() {
         frase_dica.innerHTML = `frase 9`
+        var tent = tentativa9.value
+        divtentavia9.style = "display: block;"
+
+        if (tent == "ram" || tent == "RAM") {
+            ram_r.value = "R";
+            ram_a.value = "A";
+            eprom_m_ram_m.value = "M";
+            divtentavia9.style = "display: none;"
+        } else if (tent != "") {
+            alert('resposta errada')
+            tentativa.value = ''
+        }
+
+        divtentavia1.style = "display: none;"
+        divtentavia2.style = "display: none;"
+        divtentavia3.style = "display: none;"
+        divtentavia4.style = "display: none;"
+        divtentavia5.style = "display: none;"
+        divtentavia6.style = "display: none;"
+        divtentavia7.style = "display: none;"
+        divtentavia8.style = "display: none;"
+        divtentavia10.style = "display: none;"
+        divtentavia11.style = "display: none;"
+        divtentavia12.style = "display: none;"
+        divtentavia13.style = "display: none;"
+        divtentavia14.style = "display: none;"
+        divtentavia15.style = "display: none;"
+        divtentavia16.style = "display: none;"
     }
 
     function frase10() {
         frase_dica.innerHTML = `frase 10`
+        var tent = tentativa10.value
+        divtentavia10.style = "display: block;"
+
+        if (tent == "memoriademassa" || tent == "MEMORIADEMASSA") {
+            memoriademassa_m1.value = "M";
+            memoriademassa_e1.value = "E";
+            memoriademassa_m_rom_m.value = "M";
+            memoriademassa_o.value = "O";
+            memoriademassa_r.value = "R";
+            memoriademassa_i_i7_i.value = "I";
+            memoriademassa_a1.value = "A";
+            memoriademassa_d.value = "D";
+            memoriademassa_e.value = "E";
+            memoriademassa_m.value = "M";
+            memoriademassa_a.value = "A";
+            adressBus_s_memoriademassa_s.value = "S";
+            memoriademassa_s.value = "S";
+            memoriademassa_a_ula_a.value = "A";
+            divtentavia10.style = "display: none;"
+        } else if (tent != "") {
+            alert('resposta errada')
+            tentativa.value = ''
+        }
+
+        divtentavia1.style = "display: none;"
+        divtentavia2.style = "display: none;"
+        divtentavia3.style = "display: none;"
+        divtentavia4.style = "display: none;"
+        divtentavia5.style = "display: none;"
+        divtentavia6.style = "display: none;"
+        divtentavia7.style = "display: none;"
+        divtentavia8.style = "display: none;"
+        divtentavia9.style = "display: none;"
+        divtentavia11.style = "display: none;"
+        divtentavia12.style = "display: none;"
+        divtentavia13.style = "display: none;"
+        divtentavia14.style = "display: none;"
+        divtentavia15.style = "display: none;"
+        divtentavia16.style = "display: none;"
     }
 
     function frase11() {
         frase_dica.innerHTML = `frase 11`
+        var tent = tentativa11.value
+        divtentavia11.style = "display: block;"
+
+        if (tent == "i7" || tent == "I7") {
+            memoriademassa_i_i7_i.value = "I";
+            i7_7.value = "7";
+            divtentavia11.style = "display: none;"
+        } else if (tent != "") {
+            alert('resposta errada')
+            tentativa.value = ''
+        }
+
+        divtentavia1.style = "display: none;"
+        divtentavia2.style = "display: none;"
+        divtentavia3.style = "display: none;"
+        divtentavia4.style = "display: none;"
+        divtentavia5.style = "display: none;"
+        divtentavia6.style = "display: none;"
+        divtentavia7.style = "display: none;"
+        divtentavia8.style = "display: none;"
+        divtentavia9.style = "display: none;"
+        divtentavia10.style = "display: none;"
+        divtentavia12.style = "display: none;"
+        divtentavia13.style = "display: none;"
+        divtentavia14.style = "display: none;"
+        divtentavia15.style = "display: none;"
+        divtentavia16.style = "display: none;"
     }
 
     function frase12() {
         frase_dica.innerHTML = `frase 12`
+        var tent = tentativa12.value
+        divtentavia12.style = "display: block;"
+
+        if (tent == "rom" || tent == "ROM") {
+            rom_r.value = "R";
+            rom_o.value = "O";
+            memoriademassa_m_rom_m.value = "M";
+            divtentavia11.style = "display: none;"
+        } else if (tent != "") {
+            alert('resposta errada')
+            tentativa.value = ''
+        }
+
+        divtentavia1.style = "display: none;"
+        divtentavia2.style = "display: none;"
+        divtentavia3.style = "display: none;"
+        divtentavia4.style = "display: none;"
+        divtentavia5.style = "display: none;"
+        divtentavia6.style = "display: none;"
+        divtentavia7.style = "display: none;"
+        divtentavia8.style = "display: none;"
+        divtentavia9.style = "display: none;"
+        divtentavia10.style = "display: none;"
+        divtentavia11.style = "display: none;"
+        divtentavia13.style = "display: none;"
+        divtentavia14.style = "display: none;"
+        divtentavia15.style = "display: none;"
+        divtentavia16.style = "display: none;"
     }
 
     function frase13() {
