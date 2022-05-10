@@ -125,36 +125,36 @@
         </section>
         <!-- 13 -->
         <section class="ula">
-            <input class="ipt__css" type="text" disabled=''>
+            <input class="ipt__css" type="text" id="ula_l" disabled=''>
         </section>
         <!-- 14 -->
         <section class="quadCore">
             <input class="num" disabled='' value="14" type="text">
-            <input class="ipt__css" type="text" disabled=''>
+            <input class="ipt__css" type="text" id="quadcore_q" disabled=''>
             <input class="ipt__css" type="text" id="quadcore_u_ula_u" disabled=''>
-            <input class="ipt__css" type="text" disabled=''>
-            <input class="ipt__css" type="text" disabled=''>
-            <input class="ipt__css" type="text" disabled=''>
-            <input class="ipt__css" type="text" disabled=''>
+            <input class="ipt__css" type="text" id="quadcore_a" disabled=''>
+            <input class="ipt__css" type="text" id="quadcore_d" disabled=''>
+            <input class="ipt__css" type="text" id="quadcore_c" disabled=''>
+            <input class="ipt__css" type="text" id="quadcore_o" disabled=''>
             <!-- input por baix0 -->
-            <input class="ipt__css" type="text" id="quadcore_r_dualcore-r" disabled=''>
             <input class="ipt__css" type="text" disabled=''>
+            <input class="ipt__css" type="text" id="quadcore_e" disabled=''>
         </section>
         <!-- 15 -->
         <section class="dualCore">
-            <input class="ipt__css" type="text" disabled=''>
-            <input class="ipt__css" type="text" disabled=''>
-            <input class="ipt__css" type="text" disabled=''>
-            <input class="ipt__css" type="text" disabled=''>
-            <input class="ipt__css" type="text" id="quadcore_r_cpu_c" disabled=''>
-            <input class="ipt__css" type="text" disabled=''>
-            <input class="ipt__css" type="text" id="quadcore_r_dualcore-r" disabled=''>
-            <input class="ipt__css" type="text" disabled=''>
+            <input class="ipt__css" type="text" id="dualcore_d" disabled=''>
+            <input class="ipt__css" type="text" id="dualcore_u" disabled=''>
+            <input class="ipt__css" type="text" id="dualcore_a" disabled=''>
+            <input class="ipt__css" type="text" id="dualcore_l" disabled=''>
+            <input class="ipt__css" type="text" id="quadcore_c_cpu_c" disabled=''>
+            <input class="ipt__css" type="text" id="dualcore_o" disabled=''>
+            <input class="ipt__css" type="text" id="quadcore_r_dualcore_r" disabled=''>
+            <input class="ipt__css" type="text" id="dualcore_e" disabled=''>
         </section>
         <!-- 16 -->
         <section class="cpu">
-            <input class="ipt__css" type="text" disabled=''>
-            <input class="ipt__css" type="text" disabled=''>
+            <input class="ipt__css" type="text" id="cpu_p" disabled=''>
+            <input class="ipt__css" type="text" id="cpu_u" disabled=''>
         </section>
         <div id="frase">
             <span class="frase__css" id="frase_dica">Selecione um número para aparecer a dica</span>
@@ -641,7 +641,7 @@
             rom_r.value = "R";
             rom_o.value = "O";
             memoriademassa_m_rom_m.value = "M";
-            divtentavia11.style = "display: none;"
+            divtentavia12.style = "display: none;"
         } else if (tent != "") {
             alert('resposta errada')
             tentativa.value = ''
@@ -666,18 +666,140 @@
 
     function frase13() {
         frase_dica.innerHTML = `frase 13`
+        var tent = tentativa13.value
+        divtentavia13.style = "display: block;"
+
+        if (tent == "ula" || tent == "ULA") {
+            quadcore_u_ula_u.value = "U";
+            ula_l.value = "L";
+            memoriademassa_a_ula_a.value = "A";
+            divtentavia13.style = "display: none;"
+        } else if (tent != "") {
+            alert('resposta errada')
+            tentativa.value = ''
+        }
+
+        divtentavia1.style = "display: none;"
+        divtentavia2.style = "display: none;"
+        divtentavia3.style = "display: none;"
+        divtentavia4.style = "display: none;"
+        divtentavia5.style = "display: none;"
+        divtentavia6.style = "display: none;"
+        divtentavia7.style = "display: none;"
+        divtentavia8.style = "display: none;"
+        divtentavia9.style = "display: none;"
+        divtentavia10.style = "display: none;"
+        divtentavia11.style = "display: none;"
+        divtentavia12.style = "display: none;"
+        divtentavia14.style = "display: none;"
+        divtentavia15.style = "display: none;"
+        divtentavia16.style = "display: none;"
     }
 
     function frase14() {
         frase_dica.innerHTML = `frase 14`
+        var tent = tentativa14.value
+        divtentavia14.style = "display: block;"
+
+        if (tent == "quadcore" || tent == "QUADCORE") {
+            quadcore_q.value = "Q";
+            quadcore_u_ula_u.value = "U";
+            quadcore_a.value = "A";
+            quadcore_d.value = "D";
+            quadcore_c.value = "C";
+            quadcore_o.value = "O";
+            quadcore_r_dualcore_r.value = "R";
+            quadcore_e.value = "E";
+            divtentavia14.style = "display: none;"
+        } else if (tent != "") {
+            alert('resposta errada')
+            tentativa.value = ''
+        }
+
+        divtentavia1.style = "display: none;"
+        divtentavia2.style = "display: none;"
+        divtentavia3.style = "display: none;"
+        divtentavia4.style = "display: none;"
+        divtentavia5.style = "display: none;"
+        divtentavia6.style = "display: none;"
+        divtentavia7.style = "display: none;"
+        divtentavia8.style = "display: none;"
+        divtentavia9.style = "display: none;"
+        divtentavia10.style = "display: none;"
+        divtentavia11.style = "display: none;"
+        divtentavia12.style = "display: none;"
+        divtentavia13.style = "display: none;"
+        divtentavia15.style = "display: none;"
+        divtentavia16.style = "display: none;"
     }
 
     function frase15() {
         frase_dica.innerHTML = `frase 15`
+        var tent = tentativa15.value
+        divtentavia15.style = "display: block;"
+
+        if (tent == "dualcore" || tent == "DUALCORE") {
+            dualcore_d.value = "D";
+            dualcore_u.value = "U";
+            dualcore_a.value = "A";
+            dualcore_l.value = "L";
+            quadcore_c_cpu_c.value = "C";
+            dualcore_o.value = "O";
+            quadcore_r_dualcore_r.value = "R";
+            dualcore_e.value = "E";
+            divtentavia15.style = "display: none;"
+        } else if (tent != "") {
+            alert('resposta errada')
+            tentativa.value = ''
+        }
+
+        divtentavia1.style = "display: none;"
+        divtentavia2.style = "display: none;"
+        divtentavia3.style = "display: none;"
+        divtentavia4.style = "display: none;"
+        divtentavia5.style = "display: none;"
+        divtentavia6.style = "display: none;"
+        divtentavia7.style = "display: none;"
+        divtentavia8.style = "display: none;"
+        divtentavia9.style = "display: none;"
+        divtentavia10.style = "display: none;"
+        divtentavia11.style = "display: none;"
+        divtentavia12.style = "display: none;"
+        divtentavia13.style = "display: none;"
+        divtentavia14.style = "display: none;"
+        divtentavia16.style = "display: none;"
     }
 
     function frase16() {
         frase_dica.innerHTML = `frase 16`
+        var tent = tentativa16.value
+        divtentavia16.style = "display: block;"
+
+        if (tent == "cpu" || tent == "CPU") {
+            quadcore_c_cpu_c.value = "C";
+            cpu_p.value = "P";
+            cpu_u.value = "U";
+            divtentavia16.style = "display: none;"
+        } else if (tent != "") {
+            alert('resposta errada')
+            tentativa.value = ''
+        }
+
+        divtentavia1.style = "display: none;"
+        divtentavia2.style = "display: none;"
+        divtentavia3.style = "display: none;"
+        divtentavia4.style = "display: none;"
+        divtentavia5.style = "display: none;"
+        divtentavia6.style = "display: none;"
+        divtentavia7.style = "display: none;"
+        divtentavia8.style = "display: none;"
+        divtentavia9.style = "display: none;"
+        divtentavia10.style = "display: none;"
+        divtentavia11.style = "display: none;"
+        divtentavia12.style = "display: none;"
+        divtentavia13.style = "display: none;"
+        divtentavia14.style = "display: none;"
+        divtentavia15.style = "display: none;"
     }
 
 
