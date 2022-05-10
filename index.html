@@ -14,7 +14,7 @@
         <h1>Palavras Cruzadas</h1>
         <!-- 1 -->
         <section class="cs">
-            <input class="num" disabled='' value="1" type="text" onclick="frase1()">
+            <input class="num" disabled='' value="1" type="text">
             <input class="ipt__css" type="text" id="cs_c" disabled=''>
         </section>
         <!-- 2 -->
@@ -197,7 +197,7 @@
                 <button class="verificar" onclick="frase9()">Verificar</button>
             </div>
             <div id="divtentavia10" style="display: none;">
-                <input type="text" id="tentativa10" placeholder="Tentativa">
+                <input class="ipt_tentativa" type="text" id="tentativa10" placeholder="Tentativa">
                 <button class="verificar" onclick="frase10()">Verificar</button>
             </div>
             <div id="divtentavia11" style="display: none;">
@@ -360,7 +360,7 @@
             registradores_r1.value = "R";
             registradores_e.value = "E";
             registradores_g.value = "G";
-            registradores_i.value = "I";
+            registradores_i_15_i.value = "I";
             registradores_s1.value = "S";
             registradores_t.value = "T";
             adressBus_r_registradores_r.value = "R";
@@ -399,7 +399,7 @@
         divtentavia5.style = "display: block;"
 
         if (tent == "i5" || tent == "I5") {
-            i7_5.value = "5";
+            i5_5.value = "5";
             registradores_i_15_i.value = "I";
             divtentavia5.style = "display: none;"
         } else if (tent != "") {
