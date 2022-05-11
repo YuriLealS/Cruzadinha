@@ -48,14 +48,14 @@
     .i5 {
         display: flex;
         flex-direction: column;
-        margin-top:-52px;
+        margin-top:-51px;
         margin-left: 288px;
     }
     
     .dataBus {
         display: flex;
         flex-direction: row;
-        margin-top: 52px;
+        margin-top: 6px;
         margin-left: 180px;
     }
     
@@ -69,7 +69,7 @@
         display: flex;
         flex-direction: column;
         margin-left: 512px;
-        margin-top: -105px;
+        margin-top: -170.8px;
     }
     
     .ram {
@@ -94,8 +94,8 @@
     .rom {
         display: flex;
         flex-direction: column;
-        margin-top: -104px;
-        margin-left: 148px;
+        margin-top: -148px;
+        margin-left: 120px;
     }
 
     .ula {
@@ -109,19 +109,20 @@
         display: flex;
         flex-direction: row;
         margin-left: 376px;
+        margin-top: -49px;
     }
 
     .dualCore {
         display: flex;
         flex-direction: column;
         margin-left: 568px;
-        margin-top: -182px;
+        margin-top: -205px;
     }
 
     .cpu {
         display: flex;
         flex-direction: row;
-        margin-left: 596px;
+        margin-left: 546px;
         margin-top: -104px;
     }
 
