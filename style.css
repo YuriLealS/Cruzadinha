@@ -130,6 +130,13 @@
         border-radius: 60px;
         padding:20px 60px;
         margin: 10px 200px;
+        /* background: #a3b2ff;
+            box-shadow: inset 10px 10px 20px #7f8bc7,
+            inset -10px -10px 20px #c7d9ff; */
+        background: linear-gradient(145deg, #aebeff, #93a0e6);
+            box-shadow:  50px 50px 100px #727db3,
+                         -50px -50px 100px #d4e7ff; 
+
     }
 
     #frase{
